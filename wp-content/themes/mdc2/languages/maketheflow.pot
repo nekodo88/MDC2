@@ -1,0 +1,202 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nekonet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-05 14:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.1; wp-5.6.2\n"
+"X-Domain: nekonet"
+
+#. %s: parent post link.
+#: single.php:19
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%s</span>"
+msgstr ""
+
+#: functions.php:153
+msgid "Add widgets here to appear in sidebar on blog pages."
+msgstr ""
+
+#: functions.php:141
+msgid "Add widgets here to appear in sidebar on pages."
+msgstr ""
+
+#: functions.php:165
+msgid "Add widgets here to appear in sidebar on Woocommerce pages."
+msgstr ""
+
+#: functions.php:129
+msgid "Add widgets here to appear in sidebar social."
+msgstr ""
+
+#: functions.php:117
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:38
+msgid "Basket"
+msgstr ""
+
+#: functions.php:151
+msgid "Blog Sidebar"
+msgstr ""
+
+#. 1: Author name.
+#: template-parts/post/author-bio.php:11
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:49
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:14
+#: template-parts/header/site-nav.php:14
+msgid "Close"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers.
+#: template-parts/content/content-page.php:37
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer"
+msgstr ""
+
+#: footer.php:17 functions.php:49
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Header menu"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://neko-net.pl/"
+msgstr ""
+
+#: functions.php:389
+#, php-format
+msgid ""
+"I've read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+
+#: 404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/content/content-none.php:54
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the theme
+#. Author of the theme
+msgid "nekonet"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:36
+msgid "My Account"
+msgstr ""
+
+#: single.php:31
+msgid "Next post"
+msgstr ""
+
+#: 404.php:10 template-parts/content/content-none.php:23
+msgid "Nothing here"
+msgstr ""
+
+#: template-parts/content/content-page.php:22
+#: template-parts/content/content-single.php:33
+#: template-parts/content/content.php:26
+msgid "Page"
+msgstr ""
+
+#. %: page number.
+#: template-parts/content/content-page.php:25
+#: template-parts/content/content-single.php:36
+#: template-parts/content/content.php:29
+msgid "Page %"
+msgstr ""
+
+#: single.php:32
+msgid "Previous post"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:11
+#: template-parts/header/site-nav.php:11
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:139
+msgid "Primary Sidebar"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:36
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. %s: search term.
+#: search.php:15 template-parts/content/content-none.php:15
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: functions.php:127
+msgid "Sidebar social"
+msgstr ""
+
+#: template-parts/content/content-none.php:49
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Name of the template
+msgid "Styleguide"
+msgstr ""
+
+#. Description of the theme
+msgid "Szablon dla strony neko-net.pl"
+msgstr ""
+
+#. 1: Link to authors posts. 2: Author name.
+#: template-parts/post/author-bio.php:16
+#, php-format
+msgid "View all of %2$s's posts."
+msgstr ""
+
+#. %d: the number of search results.
+#: search.php:27
+#, php-format
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:163
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:397
+msgid "You have to agree to our privacy policy in order to proceed"
+msgstr ""

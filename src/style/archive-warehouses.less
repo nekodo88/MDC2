@@ -1,0 +1,132 @@
+@import "variables.less";
+
+body.page-template-warehouses-archive {
+
+    .header-content {
+        margin-bottom: 0!important;
+    }
+
+    #warehouses-map {
+
+        position: relative;
+        padding-top: 0;
+
+        #acf-map {
+            h3 {
+                font-size: 2.5rem;
+            }
+        }
+
+        #warehouse-searchbox {
+            position: absolute;
+            background-color: @page_background_color;
+            padding: 35px;
+            left: 10%;
+            bottom: 10%;
+            border-radius: @border-radius;
+            max-width: 650px;
+            width: 100%;
+
+            @media @mobile {
+                width: 100%;
+                left: 0;
+            }
+
+            h3 {
+                padding-top: 0;
+            }
+
+            form {
+                display: flex;
+
+                @media @mobile {
+                    flex-wrap: wrap;
+                }
+
+                input,
+                select {
+                    width: 35%;
+                    background-color: #FFF;
+                    border-radius: 10px;
+                    border: 0;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    height: auto;
+                    margin-right: 10px;
+                    color: #000;
+
+                    @media @mobile {
+                        width: 100%;
+                        margin: 10px 0;
+                        font-size: 1.5rem;
+                        padding: 10px;
+                    }
+                }
+                a {
+                    width: 20%;
+
+                    @media @mobile {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #warehouses-list {
+        .warehouse-item {
+
+            padding: 20px 0;
+            margin: 20px 0;
+            border-bottom: 1px solid @light_gray_bg;
+
+            &:last-child {
+                border-bottom: 0;
+            }
+            
+            .row > div {
+                padding: 15px;
+            }
+
+            .img img {
+                width: 100%;
+                border-radius: @border-radius;
+            }
+            .title {
+                padding-left: 0;
+                padding-top: 0;
+
+                @media @mobile {
+                    padding-top: 20px;
+                }
+            }
+
+            .warehouse-details {
+                margin: 45px 0;
+
+                ul {
+                    list-style: none;
+                    padding-left: 0!important;
+                    margin: 0;
+                    line-height: 1.4em;
+
+                    li {
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .txt {
+                font-size: 1.8rem;
+            }
+
+            .btns {
+                margin-top: 40px;
+                .btn {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

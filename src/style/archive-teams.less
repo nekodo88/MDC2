@@ -1,0 +1,63 @@
+@import "variables.less";
+
+body.page-id-20 {
+    .about-peoplebox {
+        .items.row {
+            flex-wrap: wrap;
+            align-items: stretch;
+
+            > .itembox {
+                padding: 10px;
+
+                .box {
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: 100%;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    .img img {
+                        border-radius: @border-radius;
+                    }
+    
+                    .box-header {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 35px;
+    
+                        .title {
+                            font-size: 1.2em;
+                            font-weight: 600;
+                        }
+        
+                        .pos {
+                            color: @primary_color;
+                            font-size: .8em;
+                        }
+    
+                        .link_in {
+                            color: #FFF;
+                            font-size: 3.3rem;
+                        }
+                    }
+                    
+                    .txt {
+                        font-size: .8em;
+                        color: @text_color_gray;
+                        font-weight: 300;
+                    }
+
+                    .btn {
+                        display: block;
+                        width: 150px;
+                        margin-top: 25px;
+                        //font-size: 1.4rem;
+                    }
+
+                }
+
+            }
+        }
+    }
+}

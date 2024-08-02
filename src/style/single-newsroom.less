@@ -1,0 +1,27 @@
+@import "variables.less";
+
+body.single-post {
+
+    #news-content {
+
+        h1.title {
+            font-size: 3rem;
+        }
+        .row {
+            align-items: flex-start;
+
+            > .col-4 {
+                .btn {
+                    @media @mobile {
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+
+            .imgbox img {
+                border-radius: @border-radius;
+                margin: 30px 0;
+            }
+        }
+    }
+}

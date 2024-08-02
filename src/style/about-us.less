@@ -1,0 +1,71 @@
+@import "variables.less";
+
+body.page-id-18 {
+
+    #pillars {
+        h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 50px;
+        }
+
+        .row {
+            align-items: stretch;
+            gap: 10px;
+
+            h3 {
+                color: @primary_color;
+            }
+
+
+
+            >div {
+                background-color: @light_gray_bg;
+                .box-shadow-style();
+                padding: 35px;
+                border-radius: @border-radius;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 35px;
+
+                li {
+                    position: relative;
+
+                    &::before {
+                        content: '\e81d';
+                        font-family: 'Fontello';
+                        font-size: 20px;
+                        position: absolute;
+                        left: -30px;
+                        color: @primary_color;
+                        font-size: 1.3rem;
+                        top: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    #goal {
+        p {
+            font-size: 3.4rem;
+        }
+    }
+
+    #reports {
+        .row {
+            justify-content: center;
+
+            .btn {
+                margin: 150px 20px 50px;
+
+                @media @mobile {
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+}
