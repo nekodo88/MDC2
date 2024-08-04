@@ -2,6 +2,10 @@
 
 body.page-template-warehouses-archive {
 
+    #content {
+        margin-top: 0;
+    }
+
     .header-content {
         margin-bottom: 0!important;
     }
@@ -9,7 +13,7 @@ body.page-template-warehouses-archive {
     #warehouses-map {
 
         position: relative;
-        padding-top: 0;
+        padding: 0;
 
         #acf-map {
             h3 {
@@ -30,6 +34,7 @@ body.page-template-warehouses-archive {
             @media @mobile {
                 width: 100%;
                 left: 0;
+                position: initial;
             }
 
             h3 {
@@ -64,6 +69,7 @@ body.page-template-warehouses-archive {
                 }
                 a {
                     width: 20%;
+                    margin: 0;
 
                     @media @mobile {
                         width: 100%;
@@ -74,6 +80,8 @@ body.page-template-warehouses-archive {
     }
 
     #warehouses-list {
+        padding-top: 40px;
+        
         .warehouse-item {
 
             padding: 20px 0;

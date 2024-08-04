@@ -68,7 +68,7 @@ $posts = get_posts(array(
 
     <?php if(!empty($posts)): ?>
             <div class="warehouses-list">
-                <h3><?php echo __('Doradzę w sprawie nieruchomości', 'nekonet'); ?></h3>
+                <h3 class="header-underline"><?php echo __('Doradzę w sprawie nieruchomości', 'nekonet'); ?></h3>
                 <?php foreach($posts as $estate): ?>
                     
                     <div class="warehouse-item">

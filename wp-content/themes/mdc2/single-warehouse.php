@@ -20,7 +20,7 @@ if(is_array($slider_images_ids)) {
 
 
             <?php if(!empty($slider_images_ids) && is_string($slider_images_ids)): ?>
-                <div class="row-full img-full">
+                <div class="row-full img-full warehouse-img">
                     <?php 
                     $img_url =  wp_get_attachment_image_url( explode(',', $slider_images_ids)[0], 'slider-image');
                     ;?>
@@ -104,36 +104,36 @@ if(is_array($slider_images_ids)) {
                 <?php endif; ?>
             </div>
         </div>
-        <div id="benefits" class="row align-center">
+        <div id="benefits" class="row align-center icon-section">
             <div class="col-12">
                 <h3><?php echo __('W ramach projektu oferujemy najemcom', 'nekonet'); ?>:</h3>
 
-                <div class="benefits-list row">
-                    <div class="benefits-item col-2dot4">
+                <div class="icon-list row">
+                    <div class="icon-item col-2dot4">
                         <div class="icon">
                             <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_ev_chargers.svg" alt="" />
                         </div>
                         <div class="title"><?php echo __('Ładowarki do pojazdów elektrycznych', 'nekonet'); ?></div>
                     </div>
-                    <div class="benefits-item col-2dot4">
+                    <div class="icon-item col-2dot4">
                         <div class="icon">
                             <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_monitoring.svg" alt="energy consumption" />
                         </div>
                         <div class="title"><?php echo __('System monitoringu zużycia mediów', 'nekonet'); ?></div>
                     </div>
-                    <div class="benefits-item col-2dot4">
+                    <div class="icon-item col-2dot4">
                         <div class="icon">
                             <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_eco_standrads.svg" alt="" />
                         </div>
                         <div class="title"><?php echo __('Ekologiczne certyfikowane budynki', 'nekonet'); ?></div>
                     </div>
-                    <div class="benefits-item col-2dot4">
+                    <div class="icon-item col-2dot4">
                         <div class="icon">
                             <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_outdoor_gym.svg" alt="" />
                         </div>
                         <div class="title"><?php echo __('Zewnętrzne strefy relaksu', 'nekonet'); ?></div>
                     </div>
-                    <div class="benefits-item col-2dot4">
+                    <div class="icon-item col-2dot4">
                         <div class="icon">
                             <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_rainwater.svg" alt="" />
                         </div>

@@ -12,7 +12,15 @@
 </div>
 
 <?php if ( has_nav_menu( 'primary' ) ) : ?>
-    <div class="hamburger-menu"><a class="icon-menu-1"></a></div>
+    <div class="hamburger-menu">
+		<a>
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>	
+	</div>
     <nav id="site-navigation" class="primary-navigation" role="navigation"
         aria-label="<?php esc_attr_e( 'Primary menu', 'nekonet' ); ?>">
         <?php

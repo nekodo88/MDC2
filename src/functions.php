@@ -369,7 +369,7 @@ add_action('wp_enqueue_scripts', 'remove_wp_block_library_css', 100);
                     //'<h3>' . get_the_title() . '</h3>'.
                     // '<p class="blog-loop-excerpt">'. get_the_excerpt().'</p>'.
                     '<p class="blog-loop-excerpt">'. $excerpt .'</p>'.
-                    '<a class="btn outline medium icon-right" href="'.
+                    '<a class="btn outline small icon-right" href="'.
                     get_permalink().
                     '">' . __('Więcej', 'nekonet') . '</a></div>'.
                     '</div>';

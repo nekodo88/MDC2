@@ -2,12 +2,19 @@
 
 body.page-id-20 {
     .about-peoplebox {
+        padding: 20px 0;
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
         .items.row {
             flex-wrap: wrap;
             align-items: stretch;
 
             > .itembox {
                 padding: 10px;
+                margin-bottom: 25px;
 
                 .box {
 
@@ -25,10 +32,12 @@ body.page-id-20 {
                         display: flex;
                         justify-content: space-between;
                         margin-bottom: 35px;
+                        margin-top: 15px;
     
                         .title {
-                            font-size: 1.2em;
-                            font-weight: 600;
+                            font-size: 2.2rem;
+                            font-weight: 500;
+                            margin-bottom: 5px;
                         }
         
                         .pos {
@@ -46,6 +55,12 @@ body.page-id-20 {
                         font-size: .8em;
                         color: @text_color_gray;
                         font-weight: 300;
+                        padding: 0;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        -webkit-line-clamp: 4;
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
                     }
 
                     .btn {

@@ -123,11 +123,10 @@ $people_list5 = get_posts(
                                 </div>
                             </div>
                         </div>
-                        <div class="txt">
-                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?>
+                        <p class="txt">
+                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?></p>
                             <a href="<?php echo get_permalink($person); ?>"
-                            class="btn outline medium icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
-                        </div>
+                            class="btn outline small icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -166,11 +165,11 @@ $people_list5 = get_posts(
                                 </div>
                             </div>
                         </div>
-                        <div class="txt">
-                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?>
+                        <p class="txt">
+                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?></p>
                             <a href="<?php echo get_permalink($person); ?>"
-                            class="btn outline medium icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
-                        </div>
+                            class="btn outline small icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
+                                    
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -209,11 +208,11 @@ $people_list5 = get_posts(
                                 </div>
                             </div>
                         </div>
-                        <div class="txt">
-                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?>
+                        <p class="txt">
+                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?></p>
                             <a href="<?php echo get_permalink($person); ?>"
-                            class="btn outline medium icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
-                        </div>
+                            class="btn outline small icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
+                                    
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -252,11 +251,11 @@ $people_list5 = get_posts(
                                 </div>
                             </div>
                         </div>
-                        <div class="txt">
-                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?>
+                        <p class="txt">
+                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?></p>
                             <a href="<?php echo get_permalink($person); ?>"
-                            class="btn outline medium icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
-                        </div>
+                            class="btn outline small icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
+                                    
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -295,11 +294,11 @@ $people_list5 = get_posts(
                                 </div>
                             </div>
                         </div>
-                        <div class="txt">
-                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?>
+                        <p class="txt">
+                            <?php if($field = get_field( "skrocony_opis", $person->ID )) echo $field; ?></p>
                             <a href="<?php echo get_permalink($person); ?>"
-                            class="btn outline medium icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
-                        </div>
+                            class="btn outline small icon-right"><?php echo __('Więcej', 'nekonet'); ?></a>
+                                    
                     </div>
                 </div>
                 <?php endforeach; ?>

@@ -2,6 +2,16 @@
 
 body.page-id-18 {
 
+    .first-section {
+        h1 {
+            font-size: 3.3rem;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+    }
+
     #pillars {
         h2 {
             text-align: center;
@@ -11,7 +21,7 @@ body.page-id-18 {
 
         .row {
             align-items: stretch;
-            gap: 10px;
+            gap: 25px 2%;
 
             h3 {
                 color: @primary_color;
@@ -30,15 +40,21 @@ body.page-id-18 {
                 list-style: none;
                 padding-left: 35px;
 
+                @media @mobile {
+                    padding-left: 55px;
+                }
+
                 li {
                     position: relative;
+                    font-size: 2rem;
+                    margin-bottom: 25px;
 
                     &::before {
                         content: '\e81d';
                         font-family: 'Fontello';
                         font-size: 20px;
                         position: absolute;
-                        left: -30px;
+                        left: -36px;
                         color: @primary_color;
                         font-size: 1.3rem;
                         top: 5px;
@@ -56,6 +72,10 @@ body.page-id-18 {
     }
 
     #reports {
+
+        h4 {
+            font-size: 3.3rem;
+        }
         .row {
             justify-content: center;
 
@@ -63,7 +83,8 @@ body.page-id-18 {
                 margin: 150px 20px 50px;
 
                 @media @mobile {
-                    padding: 30px 0;
+                    //padding: 30px 0;
+                    margin: 30px 0;
                 }
             }
         }

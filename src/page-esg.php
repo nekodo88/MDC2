@@ -20,7 +20,7 @@ get_header();
     <img src="/mdc2/wp-content/uploads/2024/07/mdc2_esg.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
-<section>
+<section class="text-section">
     <h2 class="header-underline">Care of Environment</h2>
     <div class="row">
         <div class="col-4">
@@ -36,46 +36,46 @@ get_header();
 
 <section class="icon-section">
     <h4>Our sustainable technical standards in our buildings:</h4>
-    <div class="row">
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_mineral_wool.svg" alt="Mineral wool">
-            <p>Mineral wool</p>
+    <div class="icon-list row">
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_mineral_wool.svg" alt="Mineral wool"></div>
+            <div class="title">Mineral wool</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_solar_system.svg" alt="Solar">
-            <p>Solar</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_solar_system.svg" alt="Solar"></div>
+            <div class="title">Solar</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_rainwater.svg" alt="Rainwater retention">
-            <p>Rainwater retention</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_rainwater.svg" alt="Rainwater retention"></div>
+            <div class="title">Rainwater retention</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_ev_chargers.svg" alt="EV Chargers">
-            <p>EV Chargers</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_ev_chargers.svg" alt="EV Chargers"></div>
+            <div class="title">EV Chargers</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/icon-example.jpg" alt="icon-example">
-            <p>Bicycle shelter</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/08/bike_shelter.svg" alt="Bicycle shelter"></div>
+            <div class="title">Bicycle shelter</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_green_wall.svg" alt="Green walls">
-            <p>Green walls</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_green_wall.svg" alt="Green walls"></div>
+            <div class="title">Green walls</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_biodiversed_landscape.svg" alt="Biodiversed landscaping">
-            <p>Biodiversed landscaping</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_biodiversed_landscape.svg" alt="Biodiversed landscaping"></div>
+            <div class="title">Biodiversed landscaping</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_insect_house.svg" alt="Insect houses">
-            <p>Insect houses</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_insect_house.svg" alt="Insect houses"></div>
+            <div class="title">Insect houses</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_meadow.svg" alt="Wildflower meadows">
-            <p>Wildflower meadows</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_meadow.svg" alt="Wildflower meadows"></div>
+            <div class="title">Wildflower meadows</div>
         </div>
-        <div class="col-2dot4">
-            <img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_beehives.svg" alt="Beehives">
-            <p>Beehives</p>
+        <div class="icon-item col-2dot4">
+            <div class="icon"><img src="/mdc2/wp-content/uploads/2024/07/mdc2_icon_beehives.svg" alt="Beehives"></div>
+            <div class="title">Beehives</div>
         </div>
     </div>
 </section>
@@ -84,7 +84,7 @@ get_header();
     <img src="/mdc2/wp-content/uploads/2024/07/mdc2_esg2.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
-<section>
+<section class="text-section">
     <h2 class="header-underline">Social Awareness</h2>
     <div class="row">
         <div class="col-8">
@@ -106,7 +106,7 @@ get_header();
 </section>
 
 
-<section>
+<section class="text-section">
     <h2 class="header-underline">Trustworthy Governance</h2>
     <div class="row">
         <div class="col-4">

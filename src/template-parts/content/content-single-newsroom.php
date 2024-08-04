@@ -9,7 +9,7 @@ global $post;
 
     <div class="row">
         <div class="col-4">
-            <a href="/mdc2/news/" class="btn outline medium icon-left">Zobacz wszystkie</a>
+            <a href="/mdc2/news/" class="btn outline small icon-left">Zobacz wszystkie</a>
         </div>
 
         <div class="col-8">

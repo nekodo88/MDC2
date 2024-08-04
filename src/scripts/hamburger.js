@@ -37,3 +37,20 @@
 
     window.onresize = mobileMenuWindowResize;
 
+//ANIMATIONS
+
+jQuery(document).ready(function($){
+
+	$('#nav-icon1').click(function(){
+		$(this).toggleClass('open');
+	});
+
+    if (window.innerWidth < mobileWidth) {
+        $('ul#primary-menu-list a').click(function() {
+            hamburger.click();
+        });
+    }
+
+
+
+});

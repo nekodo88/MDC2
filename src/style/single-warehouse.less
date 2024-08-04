@@ -2,8 +2,20 @@
 
 body.single-warehouse {
 
+    #content {
+        margin-top: 0;
+    }
+
     .header-content {
         margin-bottom: 0!important;
+    }
+
+    .warehouse-img {
+        margin-bottom: 90px;
+
+        @media @mobile {
+            margin-bottom: 30px;
+        }
     }
     
     #warehouse-content {
@@ -28,27 +40,6 @@ body.single-warehouse {
                 span {
                     color: @primary_color;
                     font-size: 1.2em;
-                }
-            }
-        }
-    }
-
-    #benefits {
-        flex-wrap: wrap;
-        margin: 50px 0;
-        border-top: 1px solid @light_gray_bg;
-        border-bottom: 1px solid @light_gray_bg;
-
-        .benefits-list {
-            .benefits-item {
-                padding: 20px;
-
-                .icon {
-                    margin: 70px 0;
-                }
-
-                .title {
-                    font-size: 1.8rem;
                 }
             }
         }

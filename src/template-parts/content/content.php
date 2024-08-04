@@ -34,6 +34,6 @@
                 <div class="blog-loop-tags"><?php echo trim($tag_list); ?></div>
                 <p class="blog-loop-date"><?php echo get_the_date('d.m.Y'); ?></p>
                 <p class="blog-loop-excerpt"><?php echo $excerpt; ?></p>
-                <a class="btn outline medium icon-right" href="<?php the_permalink(); ?>"><?php _e('Więcej', 'nekonet'); ?></a>
+                <a class="btn outline small icon-right" href="<?php the_permalink(); ?>"><?php _e('Więcej', 'nekonet'); ?></a>
             </div>
         </div>

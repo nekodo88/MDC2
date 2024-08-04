@@ -180,12 +180,12 @@ body {
 }
 
 section {
-  padding: 40px 0px;
+  padding: 80px 0px;
 }
 
 p {
   margin: 0 0 18px;
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
 a {
@@ -232,7 +232,7 @@ h2,
 h3,
 h4,
 h5 {
-  padding: 10px 10px;
+  padding: 10px 0px;
 
   &.header-underline {
     border-bottom: 2px solid @primary_color;
@@ -243,7 +243,7 @@ h5 {
 
 h1 {
   font-size: 5rem;
-  font-weight: bold;
+  font-weight: 500;
   color: @headers_text_color;
 
   @media @mobile {
@@ -258,7 +258,7 @@ h1 {
 
 h2 {
   font-size: 4.7rem;
-  font-weight: bold;
+  font-weight: 500;
   color: @headers_text_color;
 
   @media @mobile {
@@ -274,7 +274,7 @@ h2 {
 
 h3 {
   font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: 500;
   color: @headers_text_color;
 
   &.big-label {
@@ -354,7 +354,7 @@ form {
 
   input,
   textarea {
-    font-weight: 700;
+    font-weight: 500;
   }
 
   input:focus,
@@ -398,8 +398,8 @@ form {
     font-family: inherit;
     filter: none;
     color: @text_color;
-    height: 54px;
-    min-height: 54px;
+    height: 45px;
+    min-height: 45px;
     padding: 15px 5px 5px 5px;
     font-size: 1em;
     border: 2px solid @text_color;
@@ -430,7 +430,7 @@ form {
     &[type="month"],
     &[type="number"] {
       color: @text_color;
-      height: 54px;
+      height: 45px;
       padding: 5px;
       font-size: 1em;
       border: 2px solid @text_color;
@@ -572,7 +572,7 @@ button {
 }
 
 .btn_small() {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 0.9rem 1rem;
   font-weight: normal;
 }
@@ -663,10 +663,25 @@ button {
       font-weight: normal;
     }
 
+    &.small {
+      &::before {
+        font-size: .7em;
+      }
+    }
+
   }
 
   &.icon-left {
     padding-left: 3.5em;
+
+    &.small {
+      padding-left: 2.6em;
+
+      &:before {
+        top: 13px;
+        left: 20px;
+      }
+    }
 
     i,
     &:before {
@@ -934,7 +949,7 @@ footer.site-footer {
       list-style: none;
       font-size: .8em;
       line-height: 1.5;
-      padding: 0 10px;
+      padding: 0 0px;
 
       a {
         color: #FFF;
@@ -954,7 +969,7 @@ footer.site-footer {
   padding: 0 15px;
 
   @media (min-width: 979px) {
-    margin-top: 0;
+    margin-top: 95px;
   }
 }
 

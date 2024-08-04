@@ -31,15 +31,46 @@
 
 </section>
 
-<section id="contact" class="row">
-    <div class="col-6">
-            <h3 class="section-headline"><?php if($field = get_field( "section1_headline" )) echo $field; ?></h3>
-            <div class="txtbox">
-                <?php if($field = get_field( "section1_text" )) echo $field; ?>
-            </div>
-    </div>
-    <div class="col-6">
-                <?php echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;?>
+<section id="contact">
+    <h1 class="header-underline"><?php if($field = get_field( "section1_headline" )) echo $field; ?></h1>
+    <div class="row">
+        <div class="col-6">
+                    <?php 
+                        //if($field = get_field( "section1_text" )) echo $field; 
+                    ?>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>MDC² Sp. z o.o.</h4>
+                        </div>
+                        <div class="col-6">
+                            Królewska 18<br>
+                            00-103 Warszawa<br>
+                            Polska<br>
+                            <a href="mailto:general@mdc2.pl">general@mdc2.pl</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Siedziba firmy</h4>
+                        </div>
+                        <div class="col-6">
+                            ul. Królewska 18, III p.<br>
+                            00-103 Warszawa
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Wynajem powierzchni</h4>
+                        </div>
+                        <div class="col-6">
+                            <a href="tel:+48501791000">+48 501 791 000</a><br>
+                            <a href="mailto:leasing@mdc2.pl">leasing@mdc2.pl</a>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-6">
+                    <?php echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;?>
+        </div>
     </div>
 </section>
 <?php get_footer(); ?>

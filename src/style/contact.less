@@ -2,6 +2,10 @@
 
 body.page-template-page-kontakt {
 
+    #content {
+        margin-top: 0;
+    }
+
     .header-content {
         margin-bottom: 0!important;
     }
@@ -11,13 +15,76 @@ body.page-template-page-kontakt {
     }
 
     #contact {
+        
+        padding-top: 0;
+
+        > .row {
+            align-items: flex-start;
+
+            > div {
+                > .row {
+                    align-items: flex-start;
+                    margin-bottom: 60px;
+
+                    > div {
+
+                        h4 {
+                            padding: 0;
+                            margin-bottom: 15px;
+                        }
+                        &:nth-child(2) {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+
         .wpcf7 {
+
+            .row {
+                > div {
+                    &:nth-child(1) {
+                        padding-right: 10px;
+                    }
+                    &:nth-child(2) {
+                        padding-left: 10px;
+                    }
+
+                    @media @mobile {
+                        padding: 0!important;
+                    }
+                }
+            }
             input::placeholder,
             textarea::placeholder {
-                color: #FFF;
+                width: 100%;
+                color: @page_background_color;
+            }
+            input:not(.btn),
+            textarea {
+                color: @page_background_color;
+                background-color: #FFF;
+                border-radius: 7px;
+                font-size: 1.5rem;
+                padding: 10px 15px;
             }
             textarea {
                 min-height: 200px;
+            }
+
+            .wpcf7-not-valid-tip,
+            .wpcf7-response-output {
+                font-size: 1.5rem;
+                margin-top: 5px;
+            }
+            .wpcf7-spinner {
+                position: absolute;
+            }
+
+            .btn {
+                width: 225px;
+                border-radius: 50px;
             }
         }
     }
