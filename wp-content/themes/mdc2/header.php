@@ -29,6 +29,10 @@
 	<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
 	<script src="/projekty/zrobione-w-szczecinie/wp-content/themes/zrobione-w-szczecinie/js-markerclustererplus-main/src/index.ts"></script>
 	
+	<!--Slick slider CDN-->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>

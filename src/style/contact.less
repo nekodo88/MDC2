@@ -39,53 +39,5 @@ body.page-template-page-kontakt {
                 }
             }
         }
-
-        .wpcf7 {
-
-            .row {
-                > div {
-                    &:nth-child(1) {
-                        padding-right: 10px;
-                    }
-                    &:nth-child(2) {
-                        padding-left: 10px;
-                    }
-
-                    @media @mobile {
-                        padding: 0!important;
-                    }
-                }
-            }
-            input::placeholder,
-            textarea::placeholder {
-                width: 100%;
-                color: @page_background_color;
-            }
-            input:not(.btn),
-            textarea {
-                color: @page_background_color;
-                background-color: #FFF;
-                border-radius: 7px;
-                font-size: 1.5rem;
-                padding: 10px 15px;
-            }
-            textarea {
-                min-height: 200px;
-            }
-
-            .wpcf7-not-valid-tip,
-            .wpcf7-response-output {
-                font-size: 1.5rem;
-                margin-top: 5px;
-            }
-            .wpcf7-spinner {
-                position: absolute;
-            }
-
-            .btn {
-                width: 225px;
-                border-radius: 50px;
-            }
-        }
     }
 }

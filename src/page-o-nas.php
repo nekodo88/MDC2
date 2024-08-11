@@ -71,8 +71,12 @@ get_header();
     <h4>Wszystkie te filary wyznaczają kierunek naszych działań.</h4>
     <div class="row">
         <a href="#" class="btn outline medium icon-right icon-down">Pobierz Raport Roczny</a>
-        <a href="#" class="btn outline medium icon-right icon-down">Pobierz Broszurę o MDC2</a>
+        <a href="#" class="btn outline medium icon-right icon-down">Pobierz Broszurę o MDC<sup>2</sup></a>
     </div>
+</section>
+
+<section id="about-contact-form">
+    <?php echo do_shortcode('[contact-form-7 id="244c739" title="Formularz mini"]') ;?>
 </section>
 
 <?php

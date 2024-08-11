@@ -43,8 +43,8 @@
                             <h4>MDC² Sp. z o.o.</h4>
                         </div>
                         <div class="col-6">
-                            Królewska 18<br>
-                            00-103 Warszawa<br>
+                            ul. Skaryszewska 7<br>
+                            03-802 Warszawa<br>
                             Polska<br>
                             <a href="mailto:general@mdc2.pl">general@mdc2.pl</a>
                         </div>

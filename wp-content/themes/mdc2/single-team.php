@@ -50,7 +50,7 @@ $posts = get_posts(array(
 
             <div class="data-contact-wrapper">
                         <?php if($field = get_field( "numer_telefonu", $post->ID )): ?>
-                        <span class="data-contact">M: <?php echo $field; ?></span>
+                        <span class="data-contact">M: <a href="tel:<?php echo str_replace(' ', '', $field) ;?>"><?php echo $field; ?></a></span>
                         <?php endif; ?>
                         <?php if($field = get_field( "adres_email", $post->ID )): ?>
                         <a href="mailto:<?php echo $field; ?>" target="_blank"

@@ -1295,6 +1295,83 @@ nav.pagination .page-numbers:hover {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+.slick-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.slick-slider .slick-arrow.slick-disabled {
+  opacity: 0.5;
+}
+.slick-slider .slick-arrow i {
+  font-size: 3rem !important;
+  color: #000;
+  z-index: 10;
+  background-color: #FFF;
+  border-radius: 50px;
+  display: block;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  position: relative;
+}
+.slick-slider .slick-arrow i::before {
+  position: relative;
+}
+.slick-slider .slick-arrow.slick-prev {
+  left: 3%;
+}
+.slick-slider .slick-arrow.slick-prev i::before {
+  left: -3px;
+  top: 2px;
+}
+.slick-slider .slick-arrow.slick-next {
+  right: 3%;
+}
+.slick-slider .slick-arrow.slick-next i::before {
+  right: -3px;
+  top: 2px;
+}
+.wpcf7 .row > div:nth-child(1) {
+  padding-right: 10px;
+}
+.wpcf7 .row > div:nth-child(2) {
+  padding-left: 10px;
+}
+@media (max-width: 757px) {
+  .wpcf7 .row > div {
+    padding: 0!important;
+  }
+}
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder {
+  width: 100%;
+  color: #5a6372;
+}
+.wpcf7 input:not(.btn),
+.wpcf7 textarea {
+  color: #5a6372;
+  background-color: #FFF;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+}
+.wpcf7 textarea {
+  min-height: 200px;
+}
+.wpcf7 .wpcf7-not-valid-tip,
+.wpcf7 .wpcf7-response-output {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.wpcf7 .wpcf7-spinner {
+  position: absolute;
+}
+.wpcf7 .btn {
+  width: 225px;
+  border-radius: 50px;
+}
 
 .box-shadow-style {
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
@@ -1359,6 +1436,7 @@ body.page-id-18 #reports h4 {
 }
 body.page-id-18 #reports .row {
   justify-content: center;
+  align-items: center;
 }
 body.page-id-18 #reports .row .btn {
   margin: 150px 20px 50px;
@@ -1366,6 +1444,32 @@ body.page-id-18 #reports .row .btn {
 @media (max-width: 757px) {
   body.page-id-18 #reports .row .btn {
     margin: 30px 0;
+  }
+}
+body.page-id-18 #about-contact-form {
+  padding-top: 0;
+  max-width: 800px;
+  margin: auto;
+}
+body.page-id-18 #about-contact-form .row {
+  align-items: center;
+}
+body.page-id-18 #about-contact-form p {
+  margin: 0;
+}
+@media (max-width: 757px) {
+  body.page-id-18 #about-contact-form p {
+    margin-bottom: 18px;
+  }
+}
+body.page-id-18 #about-contact-form .btn {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+@media (max-width: 757px) {
+  body.page-id-18 #about-contact-form .btn {
+    margin-left: 0;
+    width: 100%;
   }
 }
 
@@ -1591,45 +1695,6 @@ body.page-template-page-kontakt #contact > .row > div > .row > div h4 {
 body.page-template-page-kontakt #contact > .row > div > .row > div:nth-child(2) {
   font-size: 1.8rem;
 }
-body.page-template-page-kontakt #contact .wpcf7 .row > div:nth-child(1) {
-  padding-right: 10px;
-}
-body.page-template-page-kontakt #contact .wpcf7 .row > div:nth-child(2) {
-  padding-left: 10px;
-}
-@media (max-width: 757px) {
-  body.page-template-page-kontakt #contact .wpcf7 .row > div {
-    padding: 0!important;
-  }
-}
-body.page-template-page-kontakt #contact .wpcf7 input::placeholder,
-body.page-template-page-kontakt #contact .wpcf7 textarea::placeholder {
-  width: 100%;
-  color: #5a6372;
-}
-body.page-template-page-kontakt #contact .wpcf7 input:not(.btn),
-body.page-template-page-kontakt #contact .wpcf7 textarea {
-  color: #5a6372;
-  background-color: #FFF;
-  border-radius: 7px;
-  font-size: 1.5rem;
-  padding: 10px 15px;
-}
-body.page-template-page-kontakt #contact .wpcf7 textarea {
-  min-height: 200px;
-}
-body.page-template-page-kontakt #contact .wpcf7 .wpcf7-not-valid-tip,
-body.page-template-page-kontakt #contact .wpcf7 .wpcf7-response-output {
-  font-size: 1.5rem;
-  margin-top: 5px;
-}
-body.page-template-page-kontakt #contact .wpcf7 .wpcf7-spinner {
-  position: absolute;
-}
-body.page-template-page-kontakt #contact .wpcf7 .btn {
-  width: 225px;
-  border-radius: 50px;
-}
 
 .box-shadow-style {
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
@@ -1745,6 +1810,9 @@ body.single-team #team-content .row .data-contact-wrapper {
   padding-bottom: 30px;
   margin-bottom: 15px;
   border-bottom: 1px solid #677183;
+}
+body.single-team #team-content .row .data-contact-wrapper a {
+  color: #FFF;
 }
 body.single-team #team-content .row .data-contact-wrapper .data-contact {
   display: inline-block;
@@ -1863,6 +1931,7 @@ body.single-warehouse #mapbox h3 {
 }
 body.single-warehouse #warehouse-gallery {
   flex-wrap: wrap!important;
+  align-items: stretch;
 }
 body.single-warehouse #warehouse-gallery > div {
   padding: 10px;
@@ -1875,6 +1944,7 @@ body.single-warehouse #warehouse-gallery > div a {
 body.single-warehouse #warehouse-gallery > div a img {
   border-radius: 15px;
   object-fit: cover;
+  height: 100%;
 }
 body.single-warehouse .sidebar .person-details {
   background-color: #677183;

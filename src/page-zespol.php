@@ -80,7 +80,7 @@ $people_list5 = get_posts(
         <div class="col-4"></div>
         <div class="col-8">
             <p>Jesteśmy grupą doświadczonych profesjonalistów z branży nieruchomości komercyjnych. Członkowie naszego
-                zespołu w ciągu ponad 20 lat zbudowali i wynajęli blisko 10 mln m2 magazynów w Polsce. Każdy z nas
+                zespołu w ciągu ponad 20 lat zbudowali i wynajęli blisko 10 mln m<sup>2</sup> magazynów w Polsce. Każdy z nas
                 posiada bogate doświadczenie w branży nieruchomości komercyjnych potwierdzone wieloma umowami najmu lub
                 zakupu.</p>
             <p class="green-color">Poznajmy się</p>

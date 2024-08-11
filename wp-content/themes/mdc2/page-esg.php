@@ -17,7 +17,7 @@ get_header();
 </section>
 
 <section class="row-full img-full">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2_esg.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2_esg_b.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
 <section class="text-section">
@@ -28,7 +28,7 @@ get_header();
         </div>
         <div class="col-8">
             <h3 class="green-color">We build for the good of the Environment.</h3>
-            <p>Currently we are building the highest point scoring building ever built in Poland - MDC2 Park Gliwice, BREEAM New Construction Outstanding</p>
+            <p>Currently we are building the highest point scoring building ever built in Poland - MDC<sup>2</sup> Park Gliwice, BREEAM New Construction Outstanding</p>
             <a href="#" class="btn outline medium icon-right">Zobacz co robimy</a>
         </div>
     </div>
@@ -81,7 +81,7 @@ get_header();
 </section>
 
 <section class="row-full img-full">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2_esg2.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2_esg2_b.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
 <section class="text-section">
@@ -89,7 +89,7 @@ get_header();
     <div class="row">
         <div class="col-8">
             <h3><span class="green-color">We build for the good of the</span><br>Community.</h3>
-            <p>Since 2022 we have raised over 500 000 PLN for 11 different charities helping close to 1000 people. Through our investment in Skawina, MDC2 Park Kraków South we have bought a natural forest of 5,5 hectares which will be protected and will stay with us forever.</p>
+            <p>Since 2022 we have raised over PLN 500 000 for 11 different charities helping close to 1000 people. Through our investment in Skawina, MDC<sup>2</sup> Park Kraków South we have bought a natural forest of 5,5 hectares which will be protected and will stay with us forever.</p>
             <h3><span class="green-color">We build for the good of the</span><br>Tenants.</h3>
             <p>We offer our tenants the ability to retain and attract some of the best employees in the industry by giving them designer outdoor gyms, multiple sports courts and providing a proper landscaped surrounding to work in.</p>
             <a href="#" class="btn outline medium icon-right">Zobacz co robimy</a>
@@ -102,7 +102,7 @@ get_header();
 </section>
 
 <section class="row-full img-full">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2_esg3.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2_esg3_b.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
 

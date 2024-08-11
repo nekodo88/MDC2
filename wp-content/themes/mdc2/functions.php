@@ -193,9 +193,9 @@ function include_jQuery()
         wp_dequeue_script('jquery');
         wp_dequeue_script('jquery-core');
         wp_dequeue_script('jquery-migrate');
-        wp_enqueue_script('jquery', false, array(), false, true);
-        wp_enqueue_script('jquery-core', false, array(), false, true);
-        wp_enqueue_script('jquery-migrate', false, array(), false, true);
+        wp_enqueue_script('jquery', false, array(), false, false);
+        wp_enqueue_script('jquery-core', false, array(), false, false);
+        wp_enqueue_script('jquery-migrate', false, array(), false, false);
 
 
     }
@@ -365,7 +365,7 @@ add_action('wp_enqueue_scripts', 'remove_wp_block_library_css', 100);
                     get_the_post_thumbnail('','team_thumbnail').
                     '<div class="blog-loop-content">'.
                     '<div class="blog-loop-tags">' . trim($tag_list) . '</div>'.
-                    '<p class="blog-loop-date">'.get_the_date('d.M.Y').'</p>'.
+                    '<p class="blog-loop-date">'.get_the_date('d M Y').'</p>'.
                     //'<h3>' . get_the_title() . '</h3>'.
                     // '<p class="blog-loop-excerpt">'. get_the_excerpt().'</p>'.
                     '<p class="blog-loop-excerpt">'. $excerpt .'</p>'.

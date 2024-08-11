@@ -524,3 +524,106 @@ nav.pagination {
         }
     }
 }
+
+//SLICK SLIDER
+
+.slick-slider {
+    //ARROWS
+  
+    .slick-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+  
+      &.slick-disabled {
+        opacity: .5;
+      }
+  
+      i {
+        font-size: 3rem !important;
+        color: #000;
+        z-index: 10;
+        background-color: #FFF;
+        border-radius: 50px;
+        display: block;
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        position: relative;
+  
+        &::before {
+          position: relative;
+        }
+      }
+  
+      &.slick-prev {
+        left: 3%;
+  
+        i::before {
+          left: -3px;
+          top: 2px;
+        }
+      }
+  
+      &.slick-next {
+        right: 3%;
+  
+        i::before {
+          right: -3px;
+          top: 2px;
+        }
+      }
+    }
+  
+  }
+
+  //CONTACT FORM
+
+  .wpcf7 {
+
+    .row {
+        > div {
+            &:nth-child(1) {
+                padding-right: 10px;
+            }
+            &:nth-child(2) {
+                padding-left: 10px;
+            }
+
+            @media @mobile {
+                padding: 0!important;
+            }
+        }
+    }
+    input::placeholder,
+    textarea::placeholder {
+        width: 100%;
+        color: @page_background_color;
+    }
+    input:not(.btn),
+    textarea {
+        color: @page_background_color;
+        background-color: #FFF;
+        border-radius: 7px;
+        font-size: 1.5rem;
+        padding: 10px 15px;
+    }
+    textarea {
+        min-height: 200px;
+    }
+
+    .wpcf7-not-valid-tip,
+    .wpcf7-response-output {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    .wpcf7-spinner {
+        position: absolute;
+    }
+
+    .btn {
+        width: 225px;
+        border-radius: 50px;
+    }
+}

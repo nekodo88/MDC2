@@ -20,13 +20,14 @@ if(is_array($slider_images_ids)) {
 
 
             <?php if(!empty($slider_images_ids) && is_string($slider_images_ids)): ?>
-                <div class="row-full img-full warehouse-img">
-                    <?php 
-                    $img_url =  wp_get_attachment_image_url( explode(',', $slider_images_ids)[0], 'slider-image');
-                    ;?>
+                <div id="warehouse-slider" class="row-full img-full warehouse-img">
+
+                    <?php foreach(explode(',',$slider_images_ids) as $slide_img_id): ?>
+                        <?php $img_url = wp_get_attachment_image_url( $slide_img_id, 'slider-image');?>
                         <?php if($img_url): ?>
                                 <img src="<?php echo $img_url; ?>" alt="<?php echo $post->post_title; ?>" />
                         <?php endif; ?>
+                    <?php endforeach; ?>
                 </div>
             <?php endif; ?>
 
@@ -104,7 +105,7 @@ if(is_array($slider_images_ids)) {
                 <?php endif; ?>
             </div>
         </div>
-        <div id="benefits" class="row align-center icon-section">
+        <section id="benefits" class="row align-center icon-section">
             <div class="col-12">
                 <h3><?php echo __('W ramach projektu oferujemy najemcom', 'nekonet'); ?>:</h3>
 
@@ -142,7 +143,7 @@ if(is_array($slider_images_ids)) {
                 </div>
 
             </div>
-        </div>
+        </section>
 
         <div class="download-section align-center">
             <?php if($file_field = get_field( "plik_pdf", $post->ID )): ?>

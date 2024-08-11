@@ -14,7 +14,7 @@ global $post;
 
         <div class="col-8">
             <div class="inner">
-                <p class="date"><?php echo get_the_date('d.M.Y'); ?></p>
+                <p class="date"><?php echo get_the_date('d M Y'); ?></p>
                 <h1 class="title"><?php echo $post->post_title; ?></h1>
                 <?php if(!empty($header_img = get_field( "grafika_glowna", $post->ID ))): ?>
                 <div class="imgbox">
