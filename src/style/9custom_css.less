@@ -186,11 +186,11 @@ iframe {
 
 .btn.solid.secondary {
     background-color: #FFF;
-    color: #000;
+    color: @page_background_color;
     border-color: #FFF;
 
     &::before {
-        color: #000;
+        color: @page_background_color;
         transition: .3s;
     }
 
@@ -625,5 +625,35 @@ nav.pagination {
     .btn {
         width: 225px;
         border-radius: 50px;
+    }
+
+    //Formularz mini
+    &#wpcf7-f1647-o1 {
+        .btn {
+            margin-left: 20px;
+        }
+    }
+}
+
+
+// POPUP MAKER
+
+.popmake {
+    .popmake-close {
+        display: none;
+    }
+} 
+
+// NEWS CATEGORIES
+
+.categories-list {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    .btn {
+        margin-right: 10px;
+
+        &.current {
+            background-color: @primary_color;
+        }
     }
 }

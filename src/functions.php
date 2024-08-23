@@ -351,11 +351,12 @@ add_action('wp_enqueue_scripts', 'remove_wp_block_library_css', 100);
     $query = new  WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();
 
-        $tags = get_the_tags();
+        $tags = get_the_category();
         $tag_list = '';
         if ($tags) {
             foreach ($tags as $tag) {
-                $tag_list .= '<div class="tag">#' . $tag->name . '</div>';
+                $category_link = get_category_link($tag->term_id);
+                $tag_list .= '<div class="tag"><a href="' . esc_url($category_link) . '">#' . $tag->name . '</a></div>';
             }
         }
 
@@ -701,3 +702,26 @@ function custom_excerpt_more( $more ) {
     return '...';
 }
 add_filter( 'excerpt_more', 'custom_excerpt_more' );
+
+/**
+ * DOWNLOAD DOC AFTER CONTACT FORM SUBMIT
+ */
+
+ function redirect_to_pdf_after_form_submission($contact_form) {
+    // Check if the submitted form ID matches the desired form ID (1647)
+    if ($contact_form->id == 1647) { //Formularz mini
+        // Get the PDF file URL from the ACF field named 'plik_pdf'
+        $pdf_url = get_field('plik_pdf');
+
+        // If the PDF URL is set, redirect the user to that URL
+        if ($pdf_url) {
+            echo "<script type='text/javascript'>
+                    window.location.href = '{$pdf_url}';
+                  </script>";
+        }
+    }
+}
+
+// Hook the function to 'wpcf7_mail_sent' to trigger after the form is submitted
+add_action('wpcf7_mail_sent', 'redirect_to_pdf_after_form_submission');
+

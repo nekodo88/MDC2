@@ -90,7 +90,7 @@ $people_list5 = get_posts(
 </section>
 
 <section class="row-full img-full">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2_team.jpg" alt="MDC2 zespół">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2_team_b.jpg" alt="MDC2 zespół">
 </section>
 
 <section class="about-peoplebox white">

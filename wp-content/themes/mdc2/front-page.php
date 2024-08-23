@@ -18,7 +18,7 @@ get_header();
 </section>
 
 <section class="row-full img-full section from-left">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2-main-img2.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2-main-img2_b.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
 <section id="home-numbers" class="section from-right">

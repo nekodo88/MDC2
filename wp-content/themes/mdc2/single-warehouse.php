@@ -147,7 +147,7 @@ if(is_array($slider_images_ids)) {
 
         <div class="download-section align-center">
             <?php if($file_field = get_field( "plik_pdf", $post->ID )): ?>
-                <a href="<?php echo $file_field; ?>" target="_blank" class="btn outline medium icon-right"><?php echo __('Pobierz PDF', 'nekonet'); ?></a>
+                <a href="<?php /*echo $file_field;*/ ?>" target="_blank" class="btn outline medium icon-right"><?php echo __('Pobierz PDF', 'nekonet'); ?></a>
             <?php endif; ?>
         </div>
 

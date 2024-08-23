@@ -6,11 +6,12 @@
 ?>
     <?php
 
-        $tags = get_the_tags();
+        $tags = get_the_category();
         $tag_list = '';
         if ($tags) {
             foreach ($tags as $tag) {
-                $tag_list .= '<div class="tag">#' . $tag->name . '</div>';
+                $category_link = get_category_link($tag->term_id);
+                $tag_list .= '<div class="tag"><a href="' . esc_url($category_link) . '">#' . $tag->name . '</a></div>';
             }
         }
 

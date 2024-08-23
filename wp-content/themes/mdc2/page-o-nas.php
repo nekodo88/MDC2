@@ -18,7 +18,7 @@ get_header();
 </section>
 
 <section class="row-full img-full">
-    <img src="/mdc2/wp-content/uploads/2024/07/mdc2_about_us.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
+    <img src="/mdc2/wp-content/uploads/2024/08/mdc2_about_us.jpg" alt="mdc2 deweloper powierzchni magazynowo-przemysłowych">
 </section>
 
 <section id="goal">
@@ -75,7 +75,7 @@ get_header();
     </div>
 </section>
 
-<section id="about-contact-form">
+<section id="about-contact-form" class="hidden">
     <?php echo do_shortcode('[contact-form-7 id="244c739" title="Formularz mini"]') ;?>
 </section>
 

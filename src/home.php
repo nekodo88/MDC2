@@ -17,6 +17,30 @@ $description = get_the_archive_description();
         <?php endif; ?>
     </header><!-- .page-header -->
 
+    <?php
+    $categories = get_categories(array(
+        'hide_empty' => true,
+    ));
+
+    echo '<div class="categories-list">';
+    if ($categories) {
+        foreach ($categories as $category) {
+            $category_link = get_category_link($category->term_id);
+            $current_class = '';
+
+            if (is_category($category->term_id)) {
+                $current_class = ' current';
+            }
+
+            echo '<a href="' . esc_url($category_link) . '" class="btn outline small' . $current_class . '">' . esc_html($category->name) . '</a>';
+        }
+    } else {
+        echo '<p>Nie znaleziono kategorii.</p>';
+    }
+    echo '</div>';
+    ?>
+
+
     <div class="blog-loop">
         <?php while ( have_posts() ) : ?>
             <?php the_post(); ?>
