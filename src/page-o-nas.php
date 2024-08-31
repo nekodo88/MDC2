@@ -12,7 +12,7 @@ get_header();
         <div class="col-8">
             <h1>building for good</h1>
             <p>Jesteśmy deweloperem powierzchni magazynowo-przemysłowych. Istniejemy od 2021 roku w Polsce, gdzie prowadzimy działalność. Nasze centra logistyczne stanowią ważny element zrównoważonego rozwoju sektora nieruchomości komercyjnych.</p>
-            <a href="" class="btn outline medium icon-right">Zobacz nasze nieruchomości</a>
+            <a href="/mdc2/magazyny-do-wynajecia/" class="btn outline medium icon-right">Zobacz nasze nieruchomości</a>
         </div>
     </div>
 </section>

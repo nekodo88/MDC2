@@ -707,21 +707,74 @@ add_filter( 'excerpt_more', 'custom_excerpt_more' );
  * DOWNLOAD DOC AFTER CONTACT FORM SUBMIT
  */
 
- function redirect_to_pdf_after_form_submission($contact_form) {
-    // Check if the submitted form ID matches the desired form ID (1647)
-    if ($contact_form->id == 1647) { //Formularz mini
-        // Get the PDF file URL from the ACF field named 'plik_pdf'
-        $pdf_url = get_field('plik_pdf');
+//  function redirect_to_pdf_after_form_submission($contact_form) {
+//     // Check if the submitted form ID matches the desired form ID (1647)
+//     if ($contact_form->id == 1647) { //Formularz mini
+//         // Get the PDF file URL from the ACF field named 'plik_pdf'
+//         global $post;
+//         $pdf_url = get_field( "plik_pdf", $post->ID );
 
-        // If the PDF URL is set, redirect the user to that URL
-        if ($pdf_url) {
-            echo "<script type='text/javascript'>
-                    window.location.href = '{$pdf_url}';
-                  </script>";
+//         // If the PDF URL is set, redirect the user to that URL
+//         if ($pdf_url) {
+//             echo "<script type='text/javascript'>
+//                     window.location.href = '{$pdf_url}';
+//                   </script>";
+//         }
+//     }
+// }
+
+// // Hook the function to 'wpcf7_mail_sent' to trigger after the form is submitted
+// add_action('wpcf7_mail_sent', 'redirect_to_pdf_after_form_submission');
+
+/**
+ * CUSTOM POST TYPES MENU CLASS
+ */
+
+ function modify_menu_classes_for_custom_post_types( $classes, $item ) {
+    // Check if we are on a custom post type 'warehouse' or 'team'
+    if ( is_singular( 'warehouse' ) || is_singular( 'team' ) ) {
+        // Remove 'current_page_parent' class from all menu items
+        $classes = array_diff( $classes, array( 'current_page_parent' ) );
+
+        // Define parent page ID for each custom post type
+        $parent_page_id = 0;
+
+        if ( is_singular( 'warehouse' ) ) {
+            $parent_page_id = 16; // 'Magazyny do wynajęcia' page ID
+        } elseif ( is_singular( 'team' ) ) {
+            $parent_page_id = 20; // 'Zespół' page ID
+        }
+
+        // Add 'current-menu-item' class only to the correct parent item
+        if ( $item->object_id == $parent_page_id ) {
+            $classes[] = 'current-menu-item';
+        } else {
+            // Remove 'current-menu-item' class from other items
+            $classes = array_diff( $classes, array( 'current-menu-item' ) );
         }
     }
+
+    return $classes;
 }
 
-// Hook the function to 'wpcf7_mail_sent' to trigger after the form is submitted
-add_action('wpcf7_mail_sent', 'redirect_to_pdf_after_form_submission');
+// Apply the filter to modify the CSS classes of menu items
+add_filter('nav_menu_css_class', 'modify_menu_classes_for_custom_post_types', 100, 2);
+add_filter('page_css_class', 'modify_menu_classes_for_custom_post_types', 100, 2);
 
+
+/**
+ * MODIFY ARCHIVE TITLE
+ */
+
+ function modify_archive_title($title) {
+    // Check if we are on a category archive page
+    if (is_category()) {
+        // Remove 'Kategoria: ' prefix from the archive title
+        $title = single_cat_title('', false);
+    }
+
+    return $title;
+}
+
+// Apply the filter to modify the archive title
+add_filter('get_the_archive_title', 'modify_archive_title');

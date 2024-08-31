@@ -19,6 +19,7 @@ $estates = get_warehouses($search_data);
 global $presentUrl;
 $page = get_page_by_path( $presentUrl);
 $page_seo_descr = get_field( "tresci_seo2", $page->ID );
+
 ?>
 
 <section id="warehouses-map" class="row-full">
@@ -108,7 +109,18 @@ $page_seo_descr = get_field( "tresci_seo2", $page->ID );
                                     </div>
                                     <div class="btns row">
                                         <a href="<?php echo get_permalink( $estate->ID ); ?>" class="btn outline medium"><?php echo __('Szczegóły', 'nekonet'); ?></a>
-                                        <a href="javascript:void(0)" data-offerid="<?php echo $estate->ID; ?>" class="btn outline medium icon-right"><?php echo __('Kontakt', 'nekonet'); ?></a>
+
+                                        <?php
+                                            $offer_person = null;
+                                            if(get_field('person', $estate->ID)) {
+                                                $offer_person = get_post(get_field('person', $estate->ID));
+                                            }
+                                        ;?>
+
+                                        <?php if(!empty($offer_person)): ?>
+                                            <?php $offer_person_url = get_permalink($offer_person->ID); ?>
+                                        <a href="<?php echo $offer_person_url; ?>" data-offerid="<?php echo $estate->ID; ?>" class="btn outline medium icon-right"><?php echo __('Kontakt', 'nekonet'); ?></a>
+                                        <?php endif; ?>    
                                     </div>
                                 </div>
                             </div>

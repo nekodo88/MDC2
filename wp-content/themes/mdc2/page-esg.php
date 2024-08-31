@@ -107,15 +107,15 @@ get_header();
 
 
 <section class="text-section">
-    <h2 class="header-underline">Trustworthy Governance</h2>
+    <h2 class="header-underline">Wiarygodne zarządzanie</h2>
     <div class="row">
         <div class="col-4">
             <img src="/mdc2/wp-content/uploads/2024/07/trustworthy-governance.jpg" alt="social awareness">
         </div>
         <div class="col-8">
-            <h3><span class="green-color">We build for the good of the</span><br>Investors.</h3>
-            <p>We give them a different level of transparency and governance through our board that has not been seen in Poland before.</p>
-            <a href="#" class="btn outline medium icon-right">Pobierz Polices & procedures</a>
+            <h3><span class="green-color">Budujemy z Myślą o Dobru</span><br>Inwestorów.</h3>
+            <p>Naszą misją jest ustanowienie nowego standardu przejrzystości i zarządzania, wykraczającego poza to, co dotychczas widziano w Polsce. Poprzez zaangażowaną Radę Dyrektorów zapewniamy naszym inwestorom niezrównany poziom przejrzystości, wiarygodności i odpowiedzialności.</p>
+            <a href="#" class="btn outline medium icon-right">Pobierz Zasady i procedury</a>
         </div>
     </div>
 </section>

@@ -9,6 +9,10 @@ $posts = get_posts(array(
     'meta_value'	=> $post->ID
 ));
 
+$estate_locations = get_terms( 'warehouse-cat', array(
+    'hide_empty' => false,
+));
+
 ?>
 <?php get_header(); ?>
 <section id="team-content">
@@ -93,13 +97,13 @@ $posts = get_posts(array(
                                     <div class="warehouse-details">
                                         <ul>
                                         <?php if($field = get_field( "options1", $estate->ID )): ?>
-                                            <li><?php echo __('Dostępna powierzchnia', 'nekonet'); ?>: <span><?php if($field = get_field( "options1", $estate->ID )) echo $field; ?>m<sup>2</sup></span></li>
+                                            <li><?php echo __('Dostępna powierzchnia', 'nekonet'); ?>: <span><?php if($field = get_field( "options1", $estate->ID )) echo $field; ?> m<sup>2</sup></span></li>
                                         <?php endif; ?>
                                         <?php if($field = get_field( "options3", $estate->ID )): ?>
-                                            <li><?php echo __('Powierzchnia zabudowy', 'nekonet'); ?>: <span><?php if($field = get_field( "options3", $estate->ID )) echo $field; ?>m<sup>2</sup></span></li>
+                                            <li><?php echo __('Powierzchnia zabudowy', 'nekonet'); ?>: <span><?php if($field = get_field( "options3", $estate->ID )) echo $field; ?> m<sup>2</sup></span></li>
                                         <?php endif; ?>
                                         <?php if($field = get_field( "options4", $estate->ID )): ?>
-                                            <li><?php echo __('Powierzchnia działki', 'nekonet'); ?>: <span><?php if($field = get_field( "options4", $estate->ID )) echo $field; ?>m<sup>2</sup></span></li>
+                                            <li><?php echo __('Powierzchnia działki', 'nekonet'); ?>: <span><?php if($field = get_field( "options4", $estate->ID )) echo $field; ?> ha</span></li>
                                         <?php endif; ?>
                                         </ul>
                                     </div>
@@ -109,7 +113,6 @@ $posts = get_posts(array(
                                     </div>
                                     <div class="btns row">
                                         <a href="<?php echo get_permalink( $estate->ID ); ?>" class="btn outline medium"><?php echo __('Szczegóły', 'nekonet'); ?></a>
-                                        <a href="javascript:void(0)" data-offerid="<?php echo $estate->ID; ?>" class="btn outline medium icon-right"><?php echo __('Kontakt', 'nekonet'); ?></a>
                                     </div>
                                 </div>
                             </div>

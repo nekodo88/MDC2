@@ -25,9 +25,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYuYMNGUSyuMQBPd8giiyMO3dIv9lm34o"></script>
 
 	<!--Google map marker cluster-->
-	<script src="/projekty/zrobione-w-szczecinie/wp-content/themes/zrobione-w-szczecinie/js-markerclustererplus-main/src/markerclusterer.ts"></script>
 	<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-	<script src="/projekty/zrobione-w-szczecinie/wp-content/themes/zrobione-w-szczecinie/js-markerclustererplus-main/src/index.ts"></script>
 	
 	<!--Slick slider CDN-->
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
