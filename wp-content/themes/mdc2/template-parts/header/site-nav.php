@@ -39,8 +39,7 @@
 	<!-- languages -->
 	 <nav id="header-languages-selection" class="desktop-only">
 		<ul>
-			<li class="active">PL</li>
-			<li>ENG</li>
+			<?php pll_the_languages(); ?>
 		</ul>
 	 </nav>
 

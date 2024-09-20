@@ -12,7 +12,7 @@ get_header();
         <div class="col-8">
             <h1>building for good</h1>
             <p>Jesteśmy deweloperem powierzchni magazynowo-przemysłowych. Zarządzamy budową, wynajmujemy powierzchnie, poszukujemy gruntów, rozwijamy nowoczesne i ekologiczne budynki na terenie całego kraju.</p>
-            <a href="/mdc2/kontakt" class="btn outline medium icon-right">Zobacz jak działamy</a>
+            <a href="/mdc2/o-nas" class="btn outline medium icon-right">Zobacz jak działamy</a>
         </div>
     </div>
 </section>

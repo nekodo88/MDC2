@@ -1,5 +1,9 @@
 <?php
-/* Template Name: Teams */
+/* 
+/* Template Name: Teams 
+*/
+
+get_header();
 
 $people_list = get_posts(
     [
@@ -47,6 +51,8 @@ $people_list4 = get_posts(
     [
         'post_type' => 'team',
         'posts_per_page' => -1,
+        'orderby' => 'name',
+        'order' => 'ASC',
         'tax_query' => array(
             array(
                 'taxonomy' => 'team-cat',
@@ -72,7 +78,6 @@ $people_list5 = get_posts(
 );
 
 ?>
-<?php get_header(); ?>
 
 
 <section class="first-section">

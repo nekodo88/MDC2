@@ -1,6 +1,7 @@
 <?php
 /* Template Name: Person details */
 global $post;
+$currentlang = get_bloginfo('language');
 
 $posts = get_posts(array(
     'numberposts'	=> -1,
@@ -17,11 +18,23 @@ $estate_locations = get_terms( 'warehouse-cat', array(
 <?php get_header(); ?>
 <section id="team-content">
 
-    <h2 class="header-underline">Zespół</h2>
+    <h2 class="header-underline"><?php echo __('Zespół', 'nekonet'); ?></h2>
 
     <div class="row">
         <div class="col-4">
-            <a href="/mdc2/zespol/" class="btn outline medium icon-left">Zobacz wszystkich</a>
+
+            <?php 
+                
+                if($currentlang=="pl-PL") {
+                    $btn_link='/mdc2/zespol/';
+                }
+                elseif($currentlang=="en-US") {
+                    $btn_link='/mdc2/en/teams/';
+                }
+
+            ?>
+
+            <a href="<?php echo $btn_link ;?>" class="btn outline medium icon-left"><?php echo __('Zobacz wszystkich', 'nekonet') ;?></a>
         </div>
         <div class="col-8">
 

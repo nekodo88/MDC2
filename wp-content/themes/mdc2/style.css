@@ -1094,7 +1094,10 @@ iframe {
   font-size: 1.2rem;
   margin-right: 10px;
 }
-#header-languages-selection ul li.active {
+#header-languages-selection ul li a {
+  color: #FFF;
+}
+#header-languages-selection ul li.current-lang a {
   color: #95C11F;
 }
 #header-social ul {
@@ -1405,25 +1408,25 @@ nav.pagination .page-numbers:hover {
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
 }
-body.page-id-18 .first-section h1 {
+body.page-template-page-about-us .first-section h1 {
   font-size: 3.3rem;
 }
-body.page-id-18 .first-section .btn {
+body.page-template-page-about-us .first-section .btn {
   margin-top: 20px;
 }
-body.page-id-18 #pillars h2 {
+body.page-template-page-about-us #pillars h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
 }
-body.page-id-18 #pillars .row {
+body.page-template-page-about-us #pillars .row {
   align-items: stretch;
   gap: 25px 2%;
 }
-body.page-id-18 #pillars .row h3 {
+body.page-template-page-about-us #pillars .row h3 {
   color: #95C11F;
 }
-body.page-id-18 #pillars .row > div {
+body.page-template-page-about-us #pillars .row > div {
   background-color: #677183;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
@@ -1431,21 +1434,21 @@ body.page-id-18 #pillars .row > div {
   padding: 35px;
   border-radius: 15px;
 }
-body.page-id-18 #pillars .row ul {
+body.page-template-page-about-us #pillars .row ul {
   list-style: none;
   padding-left: 35px;
 }
 @media (max-width: 757px) {
-  body.page-id-18 #pillars .row ul {
+  body.page-template-page-about-us #pillars .row ul {
     padding-left: 55px;
   }
 }
-body.page-id-18 #pillars .row ul li {
+body.page-template-page-about-us #pillars .row ul li {
   position: relative;
   font-size: 2rem;
   margin-bottom: 25px;
 }
-body.page-id-18 #pillars .row ul li::before {
+body.page-template-page-about-us #pillars .row ul li::before {
   content: '\e81d';
   font-family: 'Fontello';
   font-size: 20px;
@@ -1455,46 +1458,46 @@ body.page-id-18 #pillars .row ul li::before {
   font-size: 1.3rem;
   top: 5px;
 }
-body.page-id-18 #goal p {
+body.page-template-page-about-us #goal p {
   font-size: 3.4rem;
 }
-body.page-id-18 #reports h4 {
+body.page-template-page-about-us #reports h4 {
   font-size: 3.3rem;
 }
-body.page-id-18 #reports .row {
+body.page-template-page-about-us #reports .row {
   justify-content: center;
   align-items: center;
 }
-body.page-id-18 #reports .row .btn {
+body.page-template-page-about-us #reports .row .btn {
   margin: 150px 20px 50px;
 }
 @media (max-width: 757px) {
-  body.page-id-18 #reports .row .btn {
+  body.page-template-page-about-us #reports .row .btn {
     margin: 30px 0;
   }
 }
-body.page-id-18 #about-contact-form {
+body.page-template-page-about-us #about-contact-form {
   padding-top: 0;
   max-width: 800px;
   margin: auto;
 }
-body.page-id-18 #about-contact-form .row {
+body.page-template-page-about-us #about-contact-form .row {
   align-items: center;
 }
-body.page-id-18 #about-contact-form p {
+body.page-template-page-about-us #about-contact-form p {
   margin: 0;
 }
 @media (max-width: 757px) {
-  body.page-id-18 #about-contact-form p {
+  body.page-template-page-about-us #about-contact-form p {
     margin-bottom: 18px;
   }
 }
-body.page-id-18 #about-contact-form .btn {
+body.page-template-page-about-us #about-contact-form .btn {
   margin-left: 20px;
   margin-bottom: 0;
 }
 @media (max-width: 757px) {
-  body.page-id-18 #about-contact-form .btn {
+  body.page-template-page-about-us #about-contact-form .btn {
     margin-left: 0;
     width: 100%;
   }
@@ -1505,56 +1508,56 @@ body.page-id-18 #about-contact-form .btn {
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
 }
-body.page-id-20 .about-peoplebox {
+body.page-template-page-zespol .about-peoplebox {
   padding: 20px 0;
 }
-body.page-id-20 .about-peoplebox h2 {
+body.page-template-page-zespol .about-peoplebox h2 {
   font-size: 3.5rem;
 }
-body.page-id-20 .about-peoplebox .items.row {
+body.page-template-page-zespol .about-peoplebox .items.row {
   flex-wrap: wrap;
   align-items: stretch;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox {
   padding: 10px;
   margin-bottom: 25px;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   justify-content: space-between;
   flex-direction: column;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .img img {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .img img {
   border-radius: 15px;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .box-header {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .box-header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 35px;
   margin-top: 15px;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .box-header .title {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .box-header .title {
   font-size: 2.2rem;
   font-weight: 500;
   margin-bottom: 5px;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .box-header .pos {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .box-header .pos {
   color: #95C11F;
   font-size: 0.8em;
   height: 2.5em;
 }
 @media (max-width: 757px) {
-  body.page-id-20 .about-peoplebox .items.row > .itembox .box .box-header .pos {
+  body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .box-header .pos {
     height: auto;
   }
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .box-header .link_in {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .box-header .link_in {
   color: #FFF;
   font-size: 3.3rem;
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .txt {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .txt {
   font-size: 0.8em;
   color: #d9d9d9;
   font-weight: 300;
@@ -1567,11 +1570,11 @@ body.page-id-20 .about-peoplebox .items.row > .itembox .box .txt {
   height: 6em;
 }
 @media (max-width: 757px) {
-  body.page-id-20 .about-peoplebox .items.row > .itembox .box .txt {
+  body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .txt {
     height: auto;
   }
 }
-body.page-id-20 .about-peoplebox .items.row > .itembox .box .btn {
+body.page-template-page-zespol .about-peoplebox .items.row > .itembox .box .btn {
   display: block;
   width: 150px;
   margin-top: 25px;

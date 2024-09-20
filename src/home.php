@@ -1,6 +1,6 @@
 <?php
 /*
- * The template for displaying archive pages
+/* Template Name: Home
  */
 
 get_header();

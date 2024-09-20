@@ -1,7 +1,7 @@
 <?php
 /* Template Name: Offer details */
 global $post;
-
+$currentlang = get_bloginfo('language');
 $offer_person = null;
 $slider_images_ids = get_field( "slider", $post->ID);
 if(get_field('person')) {
@@ -223,11 +223,13 @@ $gallery_imgs = get_field( "galeria", $post->ID );
     <?php endif; ?>
 
     <section>
-        <h3 class="align-center"><?php echo __('Zobacz inne nasze obiekty:'); ?></h3>
+        <h3 class="align-center"><?php echo __('Zobacz inne nasze obiekty:', 'nekonet'); ?></h3>
     <div id="warehouses-list">
                 <?php if(!empty($estates)): ?>
+                    <?php $i=0;?>
                     <?php foreach($estates as $estate): ?>
                         <?php if ($estate->ID == $post->ID) continue; ?>
+                        <?php if ($i == 3 ) break; ?>
                         <div class="warehouse-item">
                             <?php $image = wp_get_attachment_image_src( get_field( "grafika_glowna", $estate->ID ), 'warehouse_thumbnail' ); ?>
                             
@@ -282,8 +284,22 @@ $gallery_imgs = get_field( "galeria", $post->ID );
                                 </div>
                             </div>
                         </div>
+                        <?php $i+=1 ;?>
                     <?php endforeach; ?>
                 <?php endif; ?>
+
+                <?php 
+                
+                    if($currentlang=="pl-PL") {
+                        $btn_link='/mdc2/magazyny-do-wynajecia/';
+                    }
+                    elseif($currentlang=="en-US") {
+                        $btn_link='/mdc2/en/warehouses-for-lease/';
+                    }
+
+                ?>
+                <div class="align-center"><a class="btn outline medium icon-right" href="<?php echo $btn_link; ?>"><?php echo __('Zobacz wszystkie', 'nekonet'); ?></a></div>
+
             </div>
     </section>
     
@@ -327,7 +343,17 @@ $gallery_imgs = get_field( "galeria", $post->ID );
                 </div>
                 
             </div>
-            <div class="col-8"><?php echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;?></div>
+            
+            <div class="col-8">
+                <?php
+                if($currentlang=="pl-PL") { 
+                    echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;
+                }
+                elseif($currentlang=="en-US") {
+                    echo do_shortcode('[contact-form-7 id="95eb862" title="Formularz 1 EN"]') ;
+                }
+                ?>
+            </div>
         </div>
 
         <div class="close"><i class="icon-cancel close"></i></div>

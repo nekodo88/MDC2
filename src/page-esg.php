@@ -1,6 +1,6 @@
 <?php
 /*
- * The template for front page
+/* Template Name: ESG
  */
 
 get_header();
@@ -115,7 +115,7 @@ get_header();
         <div class="col-8">
             <h3><span class="green-color">Budujemy z Myślą o Dobru</span><br>Inwestorów.</h3>
             <p>Naszą misją jest ustanowienie nowego standardu przejrzystości i zarządzania, wykraczającego poza to, co dotychczas widziano w Polsce. Poprzez zaangażowaną Radę Dyrektorów zapewniamy naszym inwestorom niezrównany poziom przejrzystości, wiarygodności i odpowiedzialności.</p>
-            <a href="#" class="btn outline medium icon-right">Pobierz Zasady i procedury</a>
+            <a href="/mdc2/wp-content/uploads/2024/08/Carbon_Footprint_Raport_2023_MDC2.pdf" class="btn outline medium icon-right" target="_blank">Pobierz Zasady i procedury</a>
         </div>
     </div>
 </section>

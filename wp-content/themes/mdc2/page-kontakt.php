@@ -1,9 +1,10 @@
 <?php
-/* Template Name: Kontakt */
-
+/* Template Name: Contact */
+$currentlang = get_bloginfo('language');
 ?>
 
 <?php get_header(); ?>
+
 
 <?php 
 //the_title( '<h1 class="entry-title header-underline">', '</h1>' );
@@ -51,7 +52,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <h4>Siedziba firmy</h4>
+                            <h4><?php echo __('Siedziba firmy', 'nekonet') ;?></h4>
                         </div>
                         <div class="col-6">
                             ul. Królewska 18, III p.<br>
@@ -60,7 +61,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <h4>Wynajem powierzchni</h4>
+                            <h4><?php echo __('Wynajem powierzchni', 'nekonet') ;?></h4>
                         </div>
                         <div class="col-6">
                             <a href="tel:+48501791000">+48 501 791 000</a><br>
@@ -69,7 +70,15 @@
                     </div>
         </div>
         <div class="col-6">
-                    <?php echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;?>
+                    <?php 
+                    if($currentlang=="pl-PL") {
+                        echo do_shortcode('[contact-form-7 id="04a0219" title="Formularz 1"]') ;
+                    }
+                    elseif($currentlang=="en-US") {
+                        echo do_shortcode('[contact-form-7 id="95eb862" title="Formularz 1 EN"]') ;
+                    }
+                    
+                    ?>
         </div>
     </div>
 </section>

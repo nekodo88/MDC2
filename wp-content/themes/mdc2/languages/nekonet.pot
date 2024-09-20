@@ -1,0 +1,376 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MDC2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-02 20:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: nekonet"
+
+#. %s: parent post link.
+#: single.php:19
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%s</span>"
+msgstr ""
+
+#. Name of the template
+#: page-about-us.php:2
+msgid "About us"
+msgstr ""
+
+#. Author of the theme
+msgid "Adam Kownacki \"Neko-Net\""
+msgstr ""
+
+#: functions.php:153
+msgid "Add widgets here to appear in sidebar on blog pages."
+msgstr ""
+
+#: functions.php:141
+msgid "Add widgets here to appear in sidebar on pages."
+msgstr ""
+
+#: functions.php:165
+msgid "Add widgets here to appear in sidebar on Woocommerce pages."
+msgstr ""
+
+#: functions.php:129
+msgid "Add widgets here to appear in sidebar social."
+msgstr ""
+
+#: functions.php:117
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#. Name of the template
+#: template-parts/content/content-single-newsroom.php:2
+msgid "Aktualnosci details"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:38
+msgid "Basket"
+msgstr ""
+
+#: functions.php:151
+msgid "Blog Sidebar"
+msgstr ""
+
+#. 1: Author name.
+#: template-parts/post/author-bio.php:11
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:49
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:14
+msgid "Close"
+msgstr ""
+
+#. Name of the template
+#: page-kontakt.php:2
+msgid "Contact"
+msgstr ""
+
+#: single-team.php:88
+msgid "Doradzę w sprawie nieruchomości"
+msgstr ""
+
+#: single-team.php:113 single-warehouse.php:255 warehouses-archive.php:96
+msgid "Dostępna powierzchnia"
+msgstr ""
+
+#: single-warehouse.php:53
+msgid "Dostępna powierzchnia: "
+msgstr ""
+
+#: page-zespol.php:272
+msgid "Dział marketingu i administracji"
+msgstr ""
+
+#: page-zespol.php:229
+msgid "Dział operacyjno-budowlany"
+msgstr ""
+
+#: page-zespol.php:186
+msgid "Dział rozwoju nieruchomości"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers.
+#: template-parts/content/content-page.php:37
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: single-warehouse.php:132
+msgid "Ekologiczne certyfikowane budynki"
+msgstr ""
+
+#. Name of the template
+#: page-esg.php:2
+msgid "ESG"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer"
+msgstr ""
+
+#: footer.php:17 functions.php:49
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Header menu"
+msgstr ""
+
+#. Name of the template
+#: home.php:2
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://neko-net.pl/"
+msgstr ""
+
+#: 404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/content/content-none.php:54
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: single-warehouse.php:281 single-warehouse.php:311 warehouses-archive.php:122
+msgid "Kontakt"
+msgstr ""
+
+#: warehouses-archive.php:54
+msgid "Lokalizacja"
+msgstr ""
+
+#. Name of the theme
+msgid "MDC2"
+msgstr ""
+
+#: single-warehouse.php:59
+msgid "Możliwa ekspansja: "
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:36
+msgid "My Account"
+msgstr ""
+
+#: 404.php:10 template-parts/content/content-none.php:23
+msgid "Nothing here"
+msgstr ""
+
+#. Name of the template
+#: single-warehouse.php:2
+msgid "Offer details"
+msgstr ""
+
+#: template-parts/content/content-page.php:22
+#: template-parts/content/content-single.php:33
+msgid "Page"
+msgstr ""
+
+#. %: page number.
+#: template-parts/content/content-page.php:25
+#: template-parts/content/content-single.php:36
+msgid "Page %"
+msgstr ""
+
+#. Name of the template
+#: single-team.php:2
+msgid "Person details"
+msgstr ""
+
+#: single-warehouse.php:179
+msgid "Plan sytuacyjny centrum logistycznego"
+msgstr ""
+
+#: single-warehouse.php:153
+msgid "Pobierz PDF"
+msgstr ""
+
+#: warehouses-archive.php:62
+msgid "Powierzchnia"
+msgstr ""
+
+#: single-team.php:119 single-warehouse.php:261 warehouses-archive.php:102
+msgid "Powierzchnia działki"
+msgstr ""
+
+#: single-warehouse.php:71
+msgid "Powierzchnia działki: "
+msgstr ""
+
+#: single-team.php:116 single-warehouse.php:258 warehouses-archive.php:99
+msgid "Powierzchnia zabudowy"
+msgstr ""
+
+#: single-warehouse.php:65
+msgid "Powierzchnia zabudowy: "
+msgstr ""
+
+#: template-parts/header/site-nav-woocommerce.php:11
+#: template-parts/header/site-nav.php:25
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:139
+msgid "Primary Sidebar"
+msgstr ""
+
+#: page-zespol.php:143
+msgid "Rada dyrektorów"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:36
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: single-warehouse.php:144
+msgid "Recykling wody deszczowej"
+msgstr ""
+
+#. %s: search term.
+#: search.php:15 template-parts/content/content-none.php:15
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: functions.php:127
+msgid "Sidebar social"
+msgstr ""
+
+#: page-kontakt.php:55
+msgid "Siedziba firmy"
+msgstr ""
+
+#: template-parts/content/content-none.php:49
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Name of the template
+#: styleguide.php:2
+msgid "Styleguide"
+msgstr ""
+
+#: single-warehouse.php:126
+msgid "System monitoringu zużycia mediów"
+msgstr ""
+
+#. Description of the theme
+msgid "Szablon dla strony mdc2.pl"
+msgstr ""
+
+#: single-team.php:128 single-warehouse.php:270 warehouses-archive.php:41
+#: warehouses-archive.php:111
+msgid "Szczegóły"
+msgstr ""
+
+#: warehouses-archive.php:64
+msgid "Szukaj"
+msgstr ""
+
+#. Name of the template
+#: page-zespol.php:2
+msgid "Teams"
+msgstr ""
+
+#. 1: Link to authors posts. 2: Author name.
+#: template-parts/post/author-bio.php:16
+#, php-format
+msgid "View all of %2$s's posts."
+msgstr ""
+
+#: single-warehouse.php:113
+msgid "W ramach projektu oferujemy najemcom"
+msgstr ""
+
+#. Name of the template
+#: warehouses-archive.php:2
+msgid "Warehouses Archive"
+msgstr ""
+
+#. %d: the number of search results.
+#: search.php:27
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:375 page-zespol.php:132 page-zespol.php:174
+#: page-zespol.php:217 page-zespol.php:260 page-zespol.php:303
+#: template-parts/content/content.php:38
+msgid "Więcej"
+msgstr ""
+
+#: functions.php:163
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: page-kontakt.php:64
+msgid "Wynajem powierzchni"
+msgstr ""
+
+#: single-warehouse.php:100 single-warehouse.php:218
+msgid "Wyślij zapytanie"
+msgstr ""
+
+#: single-warehouse.php:219
+msgid "Zadzwoń"
+msgstr ""
+
+#: page-zespol.php:100
+msgid "Zarząd"
+msgstr ""
+
+#: single-team.php:21
+msgid "Zespół"
+msgstr ""
+
+#: single-warehouse.php:138
+msgid "Zewnętrzne strefy relaksu"
+msgstr ""
+
+#: warehouses-archive.php:51
+msgid "Znajdź nieruchomość"
+msgstr ""
+
+#: single-warehouse.php:226
+msgid "Zobacz inne nasze obiekty:"
+msgstr ""
+
+#: single-team.php:37
+msgid "Zobacz wszystkich"
+msgstr ""
+
+#: front-page.php:39 single-warehouse.php:301
+msgid "Zobacz wszystkie"
+msgstr ""
+
+#: single-warehouse.php:120
+msgid "Ładowarki do pojazdów elektrycznych"
+msgstr ""
